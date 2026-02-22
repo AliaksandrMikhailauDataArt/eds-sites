@@ -8,12 +8,34 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-xl);
   background-color: var(--background-color);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 20px 24px;
+}
+
+.cards .cards-card-body h3,
+.cards .cards-card-body h4 {
+  font-family: var(--font-display), bebas-neue-fallback, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cards .cards-card-body p {
+  color: var(--text-secondary);
+  font-size: var(--body-font-size-xs);
+  line-height: 1.6;
 }
 
 .cards .cards-card-image {
