@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p75453-e1795963.adobeaemcloud.com//bin/franklin.delivery/AliaksandrMikhailauDataArt/eds-sites/main"
+    url: "https://author-p75453-e1795963.adobeaemcloud.com/bin/franklin.delivery/AliaksandrMikhailauDataArt/eds-sites/main"
     type: "markup"
     suffix: ".html"
